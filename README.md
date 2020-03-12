@@ -10,6 +10,8 @@ word_t RDCSS(word_t *a1, word_t o1, word_t *a2, word_t o2, word_t n2)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  return r;<br/>
 }<br/>
 
+Where word_t designates a type that is the size of a memory word.
+
 RDCSS is restricted in that: a) only the location a2 can be subject to an update, b) the
 memory it acts on must be partitioned into a control section (within which a1 lies) and a
 data section (within which a2 lies), and c) the function returns the value from a2 rather
