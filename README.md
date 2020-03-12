@@ -5,9 +5,9 @@ RDCSS is defined in the following way:
 
 word_t RDCSS(word_t *a1, word_t o1, word_t *a2, word_t o2, word_t n2)<br/>
 {<br/>
-  r = *a2;<br/>
-  if (( r == o2) && (*a1 == o1)) *a2 = n2;<br/>
-  return r;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  r = *a2;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  if (( r == o2) && (*a1 == o1)) *a2 = n2;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  return r;<br/>
 }<br/>
 
 RDCSS is restricted in that: a) only the location a2 can be subject to an update, b) the
